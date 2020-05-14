@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="UTF-8">
+        <title>CONTACTO</title>
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="estilocontacto.css">
+        <link rel="icon" href="img/LOGOITZO.ico">
+
+</head>
+<body>
+<header class="cabecera">
+	<h1>ANIMALES EN PELIGRO DE EXTINCION</h1>
+	<img src="img/logo.png">
+
+  
+        <img class="separador" src="img/tortugablanca.jpg">
+       
+        <img class="separador" src="img/guacamaya.png">
+        
+        <img class="separador" src="img/minino.png">
+       
+        <img class="separador" src="img/chango.jpg">
+    
+
+</header>
+
+<nav class="menu">
+    <ul>
+	<li><a href="index.html">INICIO</a></li>
+	<li><a href="guacamayas.html">GUACAMAYAS</a></li>
+	<li><a href="tortugas.html">TORTUGAS BLANCAS</a></li>
+	<li><a href="zopilote.html">ZOPILOTE REY</a></li>
+	<li><a href="contacto.html">CONTACTO</a></li>
+    </ul>  
+</nav>
+
+<main class="formulario">
+    
+      <form action="enviar.php" method="post">
+          <h2>CONTACTENOS</h2>
+          <input type="text" name="nombre" placeholder="Nombre" required>
+          <input type="text" name="apellidos" placeholder="Apellidos" required>
+          <input type="text" name="correo" placeholder="Correo" required>
+          <input type="text" name="telefono" placeholder="Teléfono" required>
+          <input type="text" name="asunto" placeholder="Asunto" required>
+          <textarea name="mensaje" placeholder="Escriba aqui su mensaje" required></textarea>
+          <input type="submit" value="ENVIAR" id="boton">
+      </form>
+</main>
+
+<aside id="publicidad"> 
+	<img src="img/extincion.jpg">
+</aside>
+
+<footer class="piedepagina" src="piedepagina">
+	<p>Derechos Reservados (c) 2018 - Animales en Piligro de Extincion</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+p, span, a, li, h1, h2, h3{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/* ESTA ES LA CABECERA*/
+.cabecera{
+	background: #f5e5a2; 
+	padding: 5px;
+
+}
+
+.cabecera h1{
+	background: #3333; 
+	color: #000000;
+	text-align: center;
+	font-size: 25px;
+	width: 500px;
+}
+img{
+	left:25px;
+}
+
+img{
+    transition:all 0.5s ease;
+}
+
+img:hover{
+    transform: scale(0.9);
+    border-radius: 20%;
+}
+
+img.separador{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+img.separador{
+    width: 13%; 
+    height: 110px;
+    float: right;
+}
+
+
+/*ESTA ES EL MENU*/
+.menu{
+	background: #333;
+	overflow: hidden;
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline;
+}
+
+.menu ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 5px;
+}
+.menu ul li a:hover{
+	color: #F69F2C;
+}
+
+/*ESTA ES EL CUERPO*/
+.articulo{
+	background: #f5e5a2;
+	padding: 25px;
+}
+.articulo h2{
+	text-align: center;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.video{
+	width: 800px;
+}
+
+img.zopilote{
+	height: 400px;
+	width: 400px;
+	
+}
+/* Publicidad */
+#publicidad{
+	background: #f5e5a2;
+	padding: 5px;
+}
+
+
+/* PIE DE PAGINA */
+.piedepagina{
+	background: #333; 
+	color: #ffffff;
+	text-align: center;
+	padding: 5px;
+	font-size: 14px;
+}
